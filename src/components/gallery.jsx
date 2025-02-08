@@ -1,18 +1,16 @@
 export default function GallerySection() {
   const images = [
-    "/images/1.jpg",
-    "/images/2.jpg",
-    "/images/3.jpg",
-    "/images/4.jpg",
-    "/images/5.jpg",
-    "/images/6.jpg",
+    "/images/annur.jpg",
+    "/images/IMG_2979_1.JPG",
+    "/images/fida.jpg",
+    "/images/IMG_2980_1.JPG",
+    "/images/fida2.jpg",
+    "/images/IMG_2981_1.JPG",
   ];
 
   return (
-    <section className="p-10 bg-white">
-      <h2 className="text-5xl font-bold text-center text-black mb-10">
-        📸 Gallery
-      </h2>
+    <section className="p-10 bg-teal-100 scroll-mt-16" id="Gallery">
+      <h2 className="text-6xl font-bold text-black mb-10 mt-10">📸 Gallery</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {images.map((src, index) => (

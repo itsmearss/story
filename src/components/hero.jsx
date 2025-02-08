@@ -24,7 +24,10 @@ export default function Hero({ startDate }) {
   }, [startDate]);
 
   return (
-    <section className="flex flex-col md:flex-row items-center border-b-4 border-black justify-center text-black bg-white">
+    <section
+      className="flex flex-col md:flex-row items-center border-b-4 border-black justify-center text-black bg-white scroll-mt-16"
+      id="Home"
+    >
       {/* Kolom 1 */}
       <div className="flex-1 p-10 lg:border-r-4 w-full border-black bg-blue-400 text-white relative flex justify-center items-center">
         <img

@@ -1,46 +1,46 @@
 export default function PlacesSection() {
   const places = [
     {
-      name: "Paris, France",
-      img: "/images/paris.jpg",
-      desc: "City of Love and Lights",
+      name: "UNU",
+      img: "/images/unu.jpg",
+      desc: "Exhibition Under The Same Sun",
       color: "bg-red-400",
     },
     {
-      name: "Kyoto, Japan",
-      img: "/images/kyoto.jpg",
-      desc: "The Land of Temples and Sakura",
+      name: "Museum Sonobudoyo",
+      img: "/images/sonobudoyo.jpg",
+      desc: "Puppet museum with traditional Javanese puppets",
       color: "bg-yellow-400",
     },
     {
-      name: "Bali, Indonesia",
-      img: "/images/bali.jpg",
-      desc: "Paradise Island with Beautiful Beaches",
+      name: "Museum Benteng Vredeburg",
+      img: "/images/vredeburg.jpg",
+      desc: "The historic fortress of Vredeburg Museum",
       color: "bg-blue-400",
     },
     {
-      name: "Santorini, Greece",
-      img: "/images/santorini.jpg",
-      desc: "Blue Domes & Stunning Sunsets",
+      name: "Museum Kotagede",
+      img: "/images/kotagede.jpg",
+      desc: "Traditional culture museum in Kotagede",
       color: "bg-purple-400",
     },
     {
-      name: "New York, USA",
-      img: "/images/nyc.jpg",
-      desc: "The City That Never Sleeps",
+      name: "Embung Giwangan",
+      img: "/images/giwangan.jpg",
+      desc: "The beauty of the reservoir in the middle of the city",
       color: "bg-green-400",
     },
     {
-      name: "Cappadocia, Turkey",
-      img: "/images/cappadocia.jpg",
-      desc: "Hot Air Balloons & Magical Landscapes",
+      name: "Tamansari",
+      img: "/images/tamansari.jpg",
+      desc: "The beauty of the water palace in Yogyakarta",
       color: "bg-orange-400",
     },
   ];
 
   return (
-    <section className="p-10 bg-white">
-      <h2 className="text-5xl font-bold text-center text-black mb-10">
+    <section className="p-10 bg-yellow-200 scroll-mt-16" id="Place">
+      <h2 className="text-6xl font-bold text-black mb-10 mt-10">
         🌍 Places We Have to Go
       </h2>
 

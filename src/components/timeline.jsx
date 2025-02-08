@@ -1,7 +1,10 @@
 export default function Timeline() {
   return (
-    <div className="min-h-screen bg-lime-300 px-10 py-10">
-      <h1 className="text-5xl font-bold text-black text-center mb-10">
+    <div
+      className="min-h-screen bg-lime-300 px-10 py-10 scroll-mt-16"
+      id="Journey"
+    >
+      <h1 className="text-6xl font-bold text-black text-center mb-10 mt-10">
         Our Love Journey.
       </h1>
       <div className="relative">
@@ -13,12 +16,10 @@ export default function Timeline() {
           {/* Momen 1 */}
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2 pr-6">
-              <div className="bg-white p-4 rounded-lg shadow-neo border-2 border-yellow-400">
+              <div className="bg-white p-4 rounded-lg shadow-neo border-2 border-yellow-400 hover:bg-blue-200 transition-all duration-300">
                 <h2 className="text-xl font-bold text-primary">First Meet</h2>
-                <p className="text-secondary text-sm mt-1">
-                  We met at a coffee shop on a rainy day.
-                </p>
-                <p className="text-accent text-xs mt-1">📅 12 March 2020</p>
+                <p className="text-secondary text-sm mt-1">lupa</p>
+                <p className="text-accent text-xs mt-1">📅 lupa</p>
               </div>
             </div>
             <div className="w-1/2"></div>
@@ -28,12 +29,14 @@ export default function Timeline() {
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2"></div>
             <div className="w-1/2 pl-6">
-              <div className="bg-white p-4 rounded-lg shadow-neo border-2 border-yellow-400">
-                <h2 className="text-xl font-bold text-secondary">First Date</h2>
+              <div className="bg-white p-4 rounded-lg shadow-neo border-2 border-yellow-400 hover:bg-blue-200 transition-all duration-300">
+                <h2 className="text-xl font-bold text-secondary">
+                  First Date (Mungkin)
+                </h2>
                 <p className="text-primary text-sm mt-1">
-                  We had our first date at the beach.
+                  Ga sengaja jalan berdua ke kotagede, giwangan.
                 </p>
-                <p className="text-accent text-xs mt-1">📅 20 April 2020</p>
+                <p className="text-accent text-xs mt-1">📅 7 Desember 2024</p>
               </div>
             </div>
           </div>
@@ -41,12 +44,14 @@ export default function Timeline() {
           {/* Momen 3 */}
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2 pr-6">
-              <div className="bg-white p-4 rounded-lg shadow-neo border-2 border-yellow-400">
-                <h2 className="text-xl font-bold text-accent">First Kiss</h2>
+              <div className="bg-white p-4 rounded-lg shadow-neo border-2 border-yellow-400 hover:bg-blue-200 transition-all duration-300">
+                <h2 className="text-xl font-bold text-accent">Confess</h2>
                 <p className="text-primary text-sm mt-1">
-                  We shared our first kiss under the stars.
+                  fida type: "kita cb dulu aja"
                 </p>
-                <p className="text-secondary text-xs mt-1">📅 15 May 2020</p>
+                <p className="text-secondary text-xs mt-1">
+                  📅 20 Desember 2024
+                </p>
               </div>
             </div>
             <div className="w-1/2"></div>
@@ -56,15 +61,29 @@ export default function Timeline() {
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2"></div>
             <div className="w-1/2 pl-6">
-              <div className="bg-white p-4 rounded-lg shadow-neo border-2 border-yellow-400 hover:bg-lime-200 transition-all duration-300">
-                <h2 className="text-xl font-bold text-primary">Engagement</h2>
+              <div className="bg-white p-4 rounded-lg shadow-neo border-2 border-yellow-400 hover:bg-blue-200 transition-all duration-300">
+                <h2 className="text-xl font-bold text-primary">First Date</h2>
                 <p className="text-secondary text-sm mt-1">
-                  We got engaged on a beautiful sunset.
+                  nonton 1 kakak 7 ponakan sambil nangid
                 </p>
-                <p className="text-accent text-xs mt-1">📅 10 June 2021</p>
+                <p className="text-accent text-xs mt-1">📅 5 Februari 2025</p>
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Momen 5 */}
+        <div className="flex items-center justify-between w-full">
+          <div className="w-1/2 pr-6">
+            <div className="bg-white p-4 rounded-lg shadow-neo border-2 border-yellow-400 hover:bg-blue-200 transition-all duration-300">
+              <h2 className="text-xl font-bold text-accent">Jadian</h2>
+              <p className="text-primary text-sm mt-1">
+                mau g jdi pacar aku, ya x ga kuy
+              </p>
+              <p className="text-secondary text-xs mt-1">📅 20 Februari 2025</p>
+            </div>
+          </div>
+          <div className="w-1/2"></div>
         </div>
 
         {/* Titik (Bullet) pada Timeline */}
