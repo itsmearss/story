@@ -41,7 +41,7 @@ export default function PlacesSection() {
   return (
     <section className="p-10 bg-yellow-200 scroll-mt-16" id="Place">
       <h2 className="text-6xl font-bold text-black mb-10 mt-10">
-        🌍 Places We Have to Go
+        🌍 Places We've Visited
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
